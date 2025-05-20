@@ -70,8 +70,8 @@ const jungle = new Habitat(
 	"herbivore",
 	35,
 	true,
-	todayAt("08:30:00"), // firstfeed at 8:30 AM today
-	todayAt("12:00:00"), // secondfeed at 12:00 PM today
+	todayAt("08:30:00"), 
+	todayAt("12:00:00"), 
 	todayAt("18:15:00")
 );
 console.log(jungle.habitatMonitor());
